@@ -1,0 +1,9 @@
+pandas 
+requests 
+bs4 
+warnings
+time
+numpy
+datetime 
+pymongo
+json

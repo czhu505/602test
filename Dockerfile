@@ -1,8 +1,5 @@
 FROM python:3.6
 
-RUN apk update && apk upgrade && \ 
-    apk add --no-cache git
-
 WORKDIR /home/ec2-user
 COPY requirements.txt ./
 RUN pip install --upgrade pip
